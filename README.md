@@ -1,1 +1,3 @@
-# JenkinsPipeLine
+# maven-project
+
+Simple Maven Project
