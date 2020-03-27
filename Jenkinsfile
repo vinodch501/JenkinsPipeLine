@@ -1,21 +1,20 @@
 pipeline {
     agent any
-
+   
     stages {
-        stage('Build') {
+        stage ('Initialize') {
             steps {
-                echo 'Building Tomcat Application'
+                sh '''
+                    echo "PATH = ${PATH}"
+                    echo "M2_HOME = ${M2_HOME}"
+                '''
             }
         }
-        stage('Test') {
+
+        stage ('Build') {
             steps {
-                echo 'Testing Application'
+                sh 'mvn clean install package' 
             }
-        }
-        stage('Deploy') {
-            steps {
-                echo 'Deploying Application'
-            }
-        }
+                    }
     }
 }
