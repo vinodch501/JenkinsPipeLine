@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building Application'
+                echo 'Building Tomcat Application'
             }
         }
         stage('Test') {
