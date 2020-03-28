@@ -5,4 +5,4 @@ Testing pipeline trigger 1234
 This is simple pipeline project example.
 Author is jenkins team.
 Jenkins demo1
-Jenkins to deploy
+Jenkins to deploy war file.
