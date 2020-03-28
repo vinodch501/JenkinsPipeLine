@@ -1,7 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Page Title</title>
+<title>Page Title</title>
   <style>
   .center {
   text-align: center;
@@ -20,5 +17,3 @@
 <h3>Deploying a WAR file in Tomcat using Jenkins<h3>
 <h4>  Thanks to ALL<h4>
 </div>
-</body>
-</html>
