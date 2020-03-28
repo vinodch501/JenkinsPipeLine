@@ -19,7 +19,7 @@ pipeline {
                     }
         stage('Deploy to Tomcat'){
             steps(['tomcat-dev']) {
-         sh 'scp -o StrictHostKeyChecking=no target/*.war admin@35.223.149.81:/opt/tomcat/tomcat/webapps/'
+         sh 'sudo scp -o StrictHostKeyChecking=no target/*.war admin@35.223.149.81:/opt/tomcat/tomcat/webapps/'
       }
    }
     }
