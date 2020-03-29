@@ -8,7 +8,7 @@
   text-align: center;
   border: 3px solid green;
 }
-    body {background-color: TOMATO;}
+    body {background-color: white;}
     h1 {color: Blue;}
     h3 {color: Green;}
     p1 {color: Gren;}
