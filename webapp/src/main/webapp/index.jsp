@@ -6,7 +6,7 @@
   <style>
   .center {
   text-align: center;
-  border: 7px solid yellow;
+  border: 7px solid green;
 }
     body {background-color: white;}
     h1 {color: Blue;}
